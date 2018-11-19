@@ -1,7 +1,7 @@
 DESCRIPTION = "NCurses Disk Usage"
 DEPENDS = "ncurses"
 LICENSE = "GPLv3"
-LIC_FILES_CHKSUM="file://${WORKDIR}/COPYING;md5=7317ecc362e0598e8f17500ed3295fe5"
+LIC_FILES_CHKSUM="file://${WORKDIR}/ncdu-1.3/COPYING;md5=7317ecc362e0598e8f17500ed3295fe5"
 PR = "r1"
 
 SRC_URI = "http://dev.yorhel.nl/download/ncdu-${PV}.tar.gz"
