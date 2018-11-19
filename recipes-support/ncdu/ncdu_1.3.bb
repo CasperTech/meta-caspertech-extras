@@ -1,5 +1,6 @@
 DESCRIPTION = "NCurses Disk Usage"
 DEPENDS = "ncurses"
+LICENSE = "GPLv3"
 PR = "r1"
 
 SRC_URI = "http://dev.yorhel.nl/download/ncdu-${PV}.tar.gz"
