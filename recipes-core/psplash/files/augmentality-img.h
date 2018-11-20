@@ -1,5 +1,19 @@
 /* GdkPixbuf RGB C-Source image dump 1-byte-run-length-encoded */
+/* This is the overall background color */
+#define PSPLASH_BACKGROUND_COLOR 0xff,0xff,0xff
 
+/* This is the color of any text output */
+#define PSPLASH_TEXT_COLOR 0x6d,0x6d,0x70
+
+/* This is the color of the progress bar indicator */
+#define PSPLASH_BAR_COLOR 0x6d,0x6d,0x70
+
+/* This is the color of the progress bar background */
+#define PSPLASH_BAR_BACKGROUND_COLOR 0xff,0xff,0xff
+
+#define PSPLASH_BACKGROUND_COLOR_R 0xff
+#define PSPLASH_BACKGROUND_COLOR_G 0xff
+#define PSPLASH_BACKGROUND_COLOR_B 0xff
 #define POKY_IMG_ROWSTRIDE (5760)
 #define POKY_IMG_WIDTH (1920)
 #define POKY_IMG_HEIGHT (1080)
